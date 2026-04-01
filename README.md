@@ -38,7 +38,6 @@
 在 `plant_health_scores.csv` 中：
 - 必改列（如发现问题）：`classification`、`grade`
 - 绝对不要改：`image_name`
-- 分数列（`color_score`、`leaf_integrity_score`、`vigor_score`、`stress_resistance_score`、`health_total_score`）默认不改
 
 如需补充说明，可新增：
 - `review_note`（可选，写简短备注）
