@@ -45,8 +45,8 @@
 ## 5）快速判定建议
 - 图中大部分是土壤/地膜/背景，或严重模糊无法判断：`invalid_background` + `Q0`
 - 只截到一部分叶片、植株明显不完整：`partial_leaf_or_incomplete`（通常为 `B/C/D`）
-- 明显细长杂草或非黄瓜目标：`weed_or_nontarget` + `Q0`
-- 明确是目标黄瓜植株：`target_plant`，再按健康状态给 `A/B/C/D`
+- 明显细长杂草或非瓜苗目标：`weed_or_nontarget` + `Q0`
+- 明确是目标瓜苗植株：`target_plant`，再按健康状态给 `A/B/C/D`
 
 ## 6）团队协作流程
 1. 按 `image_name` 前缀分段分工（例如 `1_*~7_*`、`8_*~14_*`）。
