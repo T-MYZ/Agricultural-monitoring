@@ -44,7 +44,7 @@
 
 ## 5）快速判定建议
 - 图中大部分是土壤/地膜/背景，或严重模糊无法判断：`invalid_background` + `Q0`
-- 只截到一部分叶片、植株明显不完整：`partial_leaf_or_incomplete`（通常为 `B/C/D`）
+- 只截到一部分叶片、植株明显不完整：`partial_leaf_or_incomplete` + `Q0`
 - 明显细长杂草或非瓜苗目标：`weed_or_nontarget` + `Q0`
 - 明确是目标瓜苗植株：`target_plant`，再按健康状态给 `A/B/C/D`
 
